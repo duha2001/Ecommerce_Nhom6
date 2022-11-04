@@ -1,0 +1,50 @@
+.edit-itemm{
+    position: absolute;
+    text-align: right;
+    width: 95%;
+    padding-top: 5px;
+    visibility: hidden;
+}
+.itemK2{
+	position: relative;
+}
+.edit-bttt{
+	padding:5px;
+	border-radius: 100%;
+	background: #DDDCDC;
+	/*color: green;*/
+}
+.delete-bttt{
+	padding:5px;
+	border-radius: 100%;
+	background: #DDDCDC;
+	color: red;
+}
+.delete-bttt:hover{
+	background: red;
+	/*color: white;*/
+	color: black;
+}
+.edit-bttt:hover{
+	background: blue;
+	/*color: white;*/
+	color: black;
+}
+.itemK2:hover .edit-itemm{
+	visibility: visible;
+}
+.fa-arrow-left{
+	padding: 5px;
+    /*background: #cccccc;*/
+    border-radius: 100%;
+}
+.fa-arrow-left:hover{
+	cursor: pointer;
+	background: #cccccc;
+}
+.list-itemmm{
+	/*width: 100%;*/
+	flex-wrap: wrap;
+	margin-top: 7px;
+	display: flex;
+}

@@ -34,7 +34,7 @@
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="/index.php?quanly=allsp" class="clearfix" title="Evo Mobile">
+                                    <a href="/index.php?quanly=allsp" class="clearfix" title="Smart Store">
                                         <picture>
                                             <source media="(min-width: 1200px)"
                                                 srcset="//bizweb.dktcdn.net/100/415/483/themes/804267/assets/col_banner_1.jpg?1649491018773">
@@ -45,7 +45,7 @@
                                             <source media="(max-width: 480px)"
                                                 srcset="//bizweb.dktcdn.net/thumb/large/100/415/483/themes/804267/assets/col_banner_1.jpg?1649491018773">
                                             <img src="//bizweb.dktcdn.net/thumb/grande/100/415/483/themes/804267/assets/col_banner_1.jpg?1649491018773"
-                                                alt="Evo Mobile" class="img-responsive center-block" />
+                                                alt="Smart Store" class="img-responsive center-block" />
                                         </picture>
                                     </a>
                                 </div>
@@ -55,17 +55,17 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-12 small-banner">
-                        <a href="/index.php?quanly=allsp" title="Evo Mobile">
+                        <a href="/index.php?quanly=allsp" title="Smart Store">
                             <img class="lazy"
                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
                                 data-src="//bizweb.dktcdn.net/100/415/483/themes/804267/assets/col_banner_small_1.jpg?1649491018773"
-                                alt="Evo Mobile" />
+                                alt="Smart Store" />
                         </a>
-                        <a href="/index.php?quanly=allsp" title="Evo Mobile">
+                        <a href="/index.php?quanly=allsp" title="Smart Store">
                             <img class="lazy"
                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
                                 data-src="//bizweb.dktcdn.net/100/415/483/themes/804267/assets/col_banner_small_2.jpg?1649491018773"
-                                alt="Evo Mobile" />
+                                alt="Smart Store" />
                         </a>
                     </div>
                 </div>

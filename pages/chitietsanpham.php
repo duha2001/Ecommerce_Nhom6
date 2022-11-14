@@ -123,10 +123,14 @@ if (!$error) {
 
                                 <a class="swiper-slide" data-hash="0" href="<?= $row['banner1']; ?>"
                                     title="Click để xem">
-                                    <img src="<?= $row['banner1']; ?>" data-src="<?= $row['banner1']; ?>"
-                                        alt="<?= $row['tensanpham']; ?>" data-image="<?= $row['banner1']; ?>"
-                                        class="img-responsive mx-auto d-block swiper-lazy" />
-                                </a>
+                                    <!--<img src="<?= $row['banner1']; ?>" data-src="<?= $row['banner1']; ?>"-->
+                                    <!--    alt="<?= $row['tensanpham']; ?>" data-image="<?= $row['banner1']; ?>"-->
+                                    <!--    class="img-responsive mx-auto d-block swiper-lazy" />-->
+                                    <iframe  src="<?= $row['banner1']; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
+    width: 97%;
+    height: 100%;
+"></iframe>
+                                </a> 
 
 
 
@@ -161,9 +165,13 @@ if (!$error) {
 
 
                                 <div class="swiper-slide" data-hash="0">
-                                    <img src="<?= $row['banner1']; ?>" data-src="<?= $row['banner1']; ?>"
-                                        alt="<?= $row['tensanpham']; ?>" data-image="<?= $row['banner1']; ?>"
-                                        class="swiper-lazy" />
+                                    <!--<img src="<?= $row['banner1']; ?>" data-src="<?= $row['banner1']; ?>"-->
+                                    <!--    alt="<?= $row['tensanpham']; ?>" data-image="<?= $row['banner1']; ?>"-->
+                                    <!--    class="swiper-lazy" />-->
+                                    <iframe  src="<?= $row['banner1']; ?>" data-src="<?= $row['banner1']; ?>" alt="<?= $row['tensanpham']; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
+    width: 100%;
+    height: 100%;
+"></iframe>
                                 </div>
 
                                 <div class="swiper-slide" data-hash="1">
@@ -255,13 +263,14 @@ if (!$error) {
                                 title="Thêm vào danh sách yêu thích">
                                 Yêu thích
                             </button>
-                            <a href="index.php?quanly=tragop" class="evo-button-bottom-form" target="_blank"
+                            <a href="index.php?quanly=tragop" class="evo-button-bottom-form favorites-btn" target="_blank"
                                 title="Trả góp">Trả góp</a>
 
                         </div>
                         <div class="product-hotline">Gọi <a href="tel:19006750" title="19006750">1900 6750</a> để tư vấn
                             mua hàng</div>
                             <div class="zalo-share-button" data-href="" data-oaid="579745863508352884" data-layout="1" data-color="white" data-share-type="2" data-customize="false"></div>
+                            <div class="sharethis-inline-share-buttons"></div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12 evo-feature no-padding">
@@ -329,7 +338,7 @@ if (!$error) {
     $arrbt = array();
     while ($rowbl = mysqli_fetch_array($result)) {
         $arrbt[] = $rowbl;
-    }      
+    }
     ?>
      <?php
         $count = 0;
@@ -338,7 +347,7 @@ if (!$error) {
         ?>
         <hr>
         <p class="txt">
-            <span class="user"><img src="../dist//images/2.jpg" style="width: 50px"><?php echo $count; ?>. <?= $arrbinhluan['user'];?>: </span> <?= $arrbinhluan['binhluan'];?>
+            <span class="user" style="font-weight: bold"><img src="../dist//images/2.jpg" style="width: 50px; margin-right:10px"><?php echo $count; ?>. <?= $arrbinhluan['user'];?>: </span> <?= $arrbinhluan['binhluan'];?>
         <a style="float: right; margin-top: 45px" href="http://">Trả lời</a>
         </p>
         <hr>

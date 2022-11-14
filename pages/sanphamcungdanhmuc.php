@@ -104,7 +104,7 @@
 
 
                     <div class="evo-product-block-item">
-                        <a href="/iphone-12-128gb-chinh-hang-vn-a" title="iPhone 12 128GB Chính hãng (VN/A)"
+                        <a href="index.php?quanly=chitietsanpham&id=6" title="iPhone 12 128GB Chính hãng (VN/A)"
                             class="product__box-image">
                             <img class="lazy"
                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
@@ -120,7 +120,7 @@
 
 
                         </a>
-                        <a href="/iphone-12-128gb-chinh-hang-vn-a" title="iPhone 12 128GB Chính hãng (VN/A)"
+                        <a href="index.php?quanly=chitietsanpham&id=6" title="iPhone 12 128GB Chính hãng (VN/A)"
                             class="product__box-name">iPhone 12 128GB Chính hãng (VN/A)</a>
                         <div class="product__box-price">
 

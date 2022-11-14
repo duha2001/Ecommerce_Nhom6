@@ -9,11 +9,11 @@
                             <path d="M0 15.985v-2h24v2H0zm0-9h24v2H0v-2zm0-7h24v2H0v-2z"></path>
                         </svg>
                     </button>
-                    <a href="/" class="logo-wrapper" title="ADHK">
+                    <a href="/" class="logo-wrapper" title="Smart Store">
                         <picture>
                             <source media="(min-width: 992px)" srcset="./dist/images/smart-store-rmbg.png">
-                            <source media="(max-width: 991px)" srcset="./dist/images/mobi.png">
-                            <img src="./dist/images/smart-store-rmbg.png" data-src="./dist/images/smart-store-rmbg.png" alt="ADHK"
+                            <source media="(max-width: 991px)" srcset="../dist/images/mobi-smart-store.png">
+                            <img src="./dist/images/smart-store-rmbg.png" data-src="./dist/images/smart-store-rmbg.png" alt="Smart Store"
                                 class="lazy img-responsive mx-auto d-block" />
                         </picture>
                     </a>
@@ -214,7 +214,7 @@
 
 
                         <li class=" nav-item has-childs  ">
-                            <a href="#" class="nav-link" title="Tin tức">Tin tức <svg xmlns="http://www.w3.org/2000/svg"
+                            <a href="/index.php?quanly=tintuccongnghe" class="nav-link" title="Tin tức">Tin tức <svg xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 490.656 490.656" style="enable-background:new 0 0 490.656 490.656;"
                                     xml:space="preserve" width="25px" height="25px">
@@ -228,37 +228,37 @@
 
 
                                 <li class="nav-item-lv2">
-                                    <a class="nav-link" href="#" title="Khuyến mãi">Khuyến mãi</a>
+                                    <a class="nav-link" href="/index.php?quanly=tintuccongnghe" title="Khuyến mãi">Khuyến mãi</a>
                                 </li>
 
 
 
                                 <li class="nav-item-lv2">
-                                    <a class="nav-link" href="#" title="Thủ thuật">Thủ thuật</a>
+                                    <a class="nav-link" href="/index.php?quanly=tintuccongnghe" title="Thủ thuật">Thủ thuật</a>
                                 </li>
 
 
 
                                 <li class="nav-item-lv2">
-                                    <a class="nav-link" href="#" title="Video Hot">Video Hot</a>
+                                    <a class="nav-link" href="/index.php?quanly=tintuccongnghe" title="Video Hot">Video Hot</a>
                                 </li>
 
 
 
                                 <li class="nav-item-lv2">
-                                    <a class="nav-link" href="#" title="Đánh giá - Tư vấn">Đánh giá - Tư vấn</a>
+                                    <a class="nav-link" href="/index.php?quanly=tintuccongnghe" title="Đánh giá - Tư vấn">Đánh giá - Tư vấn</a>
                                 </li>
 
 
 
                                 <li class="nav-item-lv2">
-                                    <a class="nav-link" href="#" title="App & Game">App & Game</a>
+                                    <a class="nav-link" href="/index.php?quanly=tintuccongnghe" title="App & Game">App & Game</a>
                                 </li>
 
 
 
                                 <li class="nav-item-lv2">
-                                    <a class="nav-link" href="#" title="Thị trường">Thị trường</a>
+                                    <a class="nav-link" href="/index.php?quanly=tintuccongnghe" title="Thị trường">Thị trường</a>
                                 </li>
 
 
@@ -278,7 +278,11 @@
 
 
                         <li class="nav-item ">
-                            <a class="nav-link" target="_blank" href="https://m.me/109894831747162" title="Liên hệ">Liên hệ</a>
+                            <a class="nav-link" target="_blank" href="https://m.me/100087339836859" title="Liên hệ">Liên hệ</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.php?quanly=livestream" title="Live stream">Live Stream</a>
                         </li>
 
 
@@ -316,3 +320,6 @@
             </div>
         </div>
         </div>
+        
+   
+</body>

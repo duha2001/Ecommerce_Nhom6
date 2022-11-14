@@ -3,7 +3,7 @@
 <div class="container news-update">
 	<div class="news-update-content">
 		<div class="heading">
-			<img src="../dist/images/news_update_icon.svg" alt="Tin khuyến mãi" /> <a href="tin-tuc" title="Tin khuyến mãi">Tin khuyến mãi</a>
+			<img src="../dist/images/news_update_icon.svg" alt="Tin khuyến mãi" /> <a href="/index.php?quanly=tintuc" title="Tin khuyến mãi">Tin khuyến mãi</a>
 		</div>
 		<div class="swiper-container news-carousel">
 			<div class="swiper-wrapper">

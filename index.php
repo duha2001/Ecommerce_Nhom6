@@ -14,6 +14,7 @@ if (!isset($_GET['quanly'])) {
     include('./pages/LV3.php');
     include('./pages/LV4.php');
     include('./pages/congnghe.php');
+    
 } else {
     include('./layouts/top.php');
     include('./layouts/nav2.php');
@@ -81,10 +82,19 @@ if ($tam == 'gioithieu') {
     include('./pages/timkiem.php');
 }elseif ($tam == 'huydonhang') {
     include('./pages/xulyhuydonhang.php');
-} else {
+}elseif ($tam == 'livestream') {
+    include('./pages/livestream.php');
+}elseif ($tam == 'tintuccongnghe') {
+    include('./pages/tintuccongnghe.php');
+}elseif ($tam == 'xulythanhtoan') {
+    include('./pages/xulythanhtoan.php');
+}elseif ($tam == 'hoantat') {
+    include('./pages/hoantat.php');
+}else {
 }
 include('./layouts/footer.php');
 ?>
 <script src="https://kit.fontawesome.com/3f5eefe195.js" crossorigin="anonymous"></script>
 <script src="https://sp.zalo.me/plugins/sdk.js"></script>
+
 </html>

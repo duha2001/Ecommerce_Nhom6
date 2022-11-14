@@ -54,6 +54,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['level'])) {
                                             <th>Email</th>
                                             <th>SĐT</th>
                                             <th>Trạng thái</th>
+                                            <th>Xuất đơn</th>
                                             <th>Xác nhận</th>
                                         </tr>
                                     </thead>
@@ -70,6 +71,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['level'])) {
                                             <td><a
                                                     href="chitiethoadon.php?p=ql&a=donhang&code=<?php echo $row['code_cart']; ?>&id_khachhang=<?php echo $row['id_khachhang']; ?>">#<?php echo $row['code_cart'] ?></a>
                                             </td>
+                                            
                                             <td style="font-size: 12px;"><?php echo $row['ten'] ?></td>
                                             <td style="font-size: 12px;">
                                                 <?php $date = date_create($row['cart_date']);
@@ -89,6 +91,9 @@ if (isset($_SESSION['username']) && isset($_SESSION['level'])) {
                                                             echo '<span class="label label-danger">Đơn hàng đã huỷ</span>';
                                                         }
                                                         ?>
+                                            </td>
+                                            <td><a
+                                                    href="inhoadon.php?p=ql&a=donhang&code=<?php echo $row['code_cart']; ?>&id_khachhang=<?php echo $row['id_khachhang']; ?>">#<?php echo $row['code_cart'] ?></a>
                                             </td>
                                             <td>
                                                 <center>

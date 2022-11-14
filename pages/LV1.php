@@ -90,15 +90,15 @@ $query = mysqli_query($conn, $sql_iphone_chinh_hang_gia_tot);
     <div class="section_banner container section_banner_2">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-12 fix-banner">
-                <a href="/index.php?quanly=allsp" title="ADHK Mobile">
+                <a href="/index.php?quanly=allsp" title="Smart Store">
                     <img class="lazy mx-auto d-block" src="../dist/images/feature_banner_1.png"
-                        data-src="../dist/images/feature_banner_1.png" alt="ADHK Mobile" />
+                        data-src="../dist/images/feature_banner_1.png" alt="Smart Store" />
                 </a>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-12 fix-banner">
-                <a href="/index.php?quanly=allsp" title="ADHK Mobile">
+                <a href="/index.php?quanly=allsp" title="Smart Store">
                     <img class="lazy mx-auto d-block" src="../dist/images/feature_banner_2.png"
-                        data-src="../dist/images/feature_banner_2.png" alt="ADHK Mobile" />
+                        data-src="../dist/images/feature_banner_2.png" alt="Smart Store" />
                 </a>
             </div>
         </div>

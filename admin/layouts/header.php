@@ -16,8 +16,8 @@ $row_acc = mysqli_fetch_array($result_acc);
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="../dist/images/setting.png" type="image/x-icon" />
-    <title>THẾ GIỚI DI ĐỘNG - VLUTE</title>
+    <link rel="shortcut icon" href="../dist/images/icon-admin.jpeg" type="image/x-icon" />
+    <title>SMART STORE - THẾ GIỚI DI DỘNG</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->

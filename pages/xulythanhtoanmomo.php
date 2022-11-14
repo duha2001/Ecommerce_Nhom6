@@ -36,8 +36,8 @@ $secretKey = 'mD9QAVi4cm9N844jh5Y2tqjWaaJoGVFM';
 $orderInfo = "Thanh toán qua mã QR MoMo";
 $amount = $_POST['tongtien_vnd'];
 $orderId = time() . "";
-$redirectUrl = "http://baocaocuoikythuongmaidientu.test/index.php?quanly=hoantat";
-$ipnUrl = "http://baocaocuoikythuongmaidientu.test/index.php?quanly=hoantat";
+$redirectUrl = "http://smartstoregorilass.com/index.php?quanly=hoantat";
+$ipnUrl = "http://smartstoregorilass.com/index.php?quanly=hoantat";
 $extraData = "";
 
 

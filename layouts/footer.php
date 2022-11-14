@@ -71,7 +71,9 @@ if (localStorage.last_viewed_products != undefined) {
     jQuery('.product-page-viewed').addClass('d-none');
 }
 </script>
+
 <footer class="footer">
+    
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-lg-3 footer-infos">
@@ -79,15 +81,14 @@ if (localStorage.last_viewed_products != undefined) {
                     <div class="col-lg-12 col-sm-6">
                         <h4 class="footer-title">Thông tin liên hệ</h4>
 
-                        <p><strong>Địa chỉ: </strong>73 Nguyễn Huệ, Phường 2, TP, Vĩnh Long</p>
+                        <p><strong>Địa chỉ: </strong>280 An Dương Vương, Quận 5, TPHCM</p>
 
 
-                        <p><strong>Điện thoại: </strong><a href="tel:0270 3822 141" title="0270 3822 141">0270 3822
-                                141</a></p>
+                        <p><strong>Điện thoại: </strong><a href="tel:0270 3822 141" title="0366 6610 949">0366610949</a></p>
 
 
-                        <p><strong>Email: </strong><a href="mailto:huykhangvo02092000@gmail.com"
-                                title="huykhangvo02092000@gmail.com">huykhangvo02092000@gmail.com</a></p>
+                        <p><strong>Email: </strong><a href="mailto:huynhanhdu2000@gmail.com"
+                                title="huynhanhdu2000@gmail.com">huynhanhdu2000@gmail.com</a></p>
                     </div>
                     <div class="col-lg-12 col-sm-6">
                         <h4 class="footer-title footer-payment-title">Hỗ trợ thanh toán</h4>
@@ -192,8 +193,8 @@ if (localStorage.last_viewed_products != undefined) {
                             <div class="col-lg-12 col-sm-6">
                                 <h4 class="footer-title">Kết nối với chúng tôi</h4>
                                 <div class="social">
-                                    <a href="https://www.facebook.com/CNTT2021/" target="_blank" aria-label="Facebook"
-                                        title="Theo dõi ADHK Mobile trên Facebook">
+                                    <a href="https://www.facebook.com/profile.php?id=100087339836859" target="_blank" aria-label="Facebook"
+                                        title="Theo dõi Smart Store Mobile trên Facebook">
                                         <svg xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px"
                                             viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;"
@@ -204,8 +205,8 @@ if (localStorage.last_viewed_products != undefined) {
                                                 fill="#EBE7E7" />
                                         </svg>
                                     </a>
-                                    <a href="https://twitter.com/huykhangvo" target="_blank" aria-label="Twitter"
-                                        title="Theo dõi ADHK Mobile trên Twitter">
+                                    <a href="#" target="_blank" aria-label="Twitter"
+                                        title="Theo dõi Smart Store Mobile trên Twitter">
                                         <svg xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"
                                             style="enable-background:new 0 0 512 512;" xml:space="preserve" width="25px"
@@ -216,8 +217,8 @@ if (localStorage.last_viewed_products != undefined) {
                                                 fill="#EBE7E7" />
                                         </svg>
                                     </a>
-                                    <a href="https://www.youtube.com/channel/UCGKeb7-QM1IsH4WZLewdOZQ" target="_blank"
-                                        aria-label="Youtube" title="Theo dõi ADHK Mobile trên Youtube">
+                                    <a href="#" target="_blank"
+                                        aria-label="Youtube" title="Theo dõi Smart Store Mobile trên Youtube">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"
                                             style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -229,8 +230,8 @@ if (localStorage.last_viewed_products != undefined) {
 													 C512,181.088,504.704,138.592,490.24,113.92z M192,352V160l160,96L192,352z" />
                                         </svg>
                                     </a>
-                                    <a href="https://www.instagram.com/khang20000902/" target="_blank"
-                                        aria-label="Instagram" title="Theo dõi ADHK Mobile trên Instagram">
+                                    <a href="#" target="_blank"
+                                        aria-label="Instagram" title="Theo dõi Smart Store Mobile trên Instagram">
                                         <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="m75 512h362c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75zm-45-437c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45v362c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45zm0 0" />
@@ -250,8 +251,8 @@ if (localStorage.last_viewed_products != undefined) {
     </div>
     <div class="copyright text-center">
 
-        <span>© Bản quyền thuộc về <b>ADHK</b> <span class="s480-f">|</span> Đề tài thương mại điện tử <a
-                href="https://github.com/huykhangvo" title="Võ Huy Khang" target="_blank"
+        <span>© Bản quyền thuộc về <b>Smart Store</b> <span class="s480-f">|</span> Đề tài thương mại điện tử <a
+                href="https://github.com/duha2001" title="Huỳnh Anh Dự" target="_blank"
                 rel="nofollow">Github</a></span>
 
 
@@ -264,6 +265,7 @@ if (localStorage.last_viewed_products != undefined) {
             </svg></div>
 
     </div>
+   
 </footer>
 <div class="backdrop__body-backdrop___1rvky"></div>
 <div class="mobile-main-menu">
@@ -765,6 +767,10 @@ if (localStorage.last_viewed_products != undefined) {
             <li class="ng-scope ">
                 <a href="https://m.me/109894831747162" target="_blank" title="Liên hệ">Liên hệ</a>
             </li>
+            
+            <li class="ng-scope ">
+                <a href="index.php?quanly=livestream"  title="Live stream">Live stream</a>
+            </li>
         </ul>
     </div>
 </div>
@@ -929,7 +935,7 @@ paypal.Buttons({
 
     <script>
         var playlist = [
-            <?php 
+            <?php
 $sql = "select * from tbl_music";
 $query = mysqli_query($conn,$sql);
 while ($row = mysqli_fetch_array($query)){
@@ -942,9 +948,9 @@ while ($row = mysqli_fetch_array($query)){
         }, ';
 }
 ?>
-    
-    
-    
+
+
+
     ];
         var isRotate = true;
         var autoplay = false;
@@ -963,7 +969,49 @@ while ($row = mysqli_fetch_array($query)){
 
 
 
+<!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
 
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "103658519235300");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+     <!--Start of Tawk.to Script-->
+<!--<script type="text/javascript">-->
+<!--var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();-->
+<!--(function(){-->
+<!--var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];-->
+<!--s1.async=true;-->
+<!--s1.src='https://embed.tawk.to/636db79adaff0e1306d6d409/1ghi9adpu';-->
+<!--s1.charset='UTF-8';-->
+<!--s1.setAttribute('crossorigin','*');-->
+<!--s0.parentNode.insertBefore(s1,s0);-->
+<!--})();-->
+<!--</script>-->
+<!--End of Tawk.to Script-->
 </body>
 
 </html>

@@ -44,7 +44,7 @@ if ($email == false) {
                                 <a href="index.php?quanly=login" title="Đăng nhập">Đăng nhập</a>
                             </li>
                             <li class="active">
-                                <a href="#" title="Đăng ký">Đăng ký</a>
+                                <a href="/index.php?quanly=register" title="Đăng ký">Đăng ký</a>
                             </li>
                         </ul>
                         <form accept-charset="utf-8" action="" id="customer_register" method="post">

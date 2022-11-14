@@ -257,7 +257,7 @@ if (!isset($_SESSION['dangnhap_home'])) {
                         echo '<p>Giao dịch thanh toán bằng VNPAY thành công<a href="/"> TIẾP TỤC MUA HÀNG</a>';
                         $tieude = "Thanh toán bằng VNPAY thành công";
                         $noidung = '';
-                        $noidung .= "<p>Cảm ơn Anh/chị " . $_SESSION['dangnhap_home'] . " đã đặt hàng tại ADHK Mobile</p>";
+                        $noidung .= "<p>Cảm ơn Anh/chị " . $_SESSION['dangnhap_home'] . " đã đặt hàng tại Smart Store</p>";
                         $noidung .= '<p>
                         <b>Khách Hàng: </b>' . $name . '<br/>
                         <b>Email: </b>' . $mail . '<br/>
@@ -356,8 +356,8 @@ if (!isset($_SESSION['dangnhap_home'])) {
                             <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Đơn hàng của quý khách sẽ được vận chuyển đến tay Quý khách trong sau thời gian 2 đến 3 ngày làm việc tính từ thời điểm này.</li>
                             <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nhân viên giao hàng sẽ liên hệ với số điện thoại trước khi giao hàng 24 tiếng</li>
                             <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Cảm ơn Quý khách đã mua sản phẩm tại Công ty chúng Tôi!</li>
-                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nếu Anh/chị có bất kỳ câu hỏi nào, xin liên hệ với chúng tôi tại: adhkmobile@gmail.com</li>
-                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Trân trọng, Ban quản trị cửa hàng ADHK Mobile</li>
+                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nếu Anh/chị có bất kỳ câu hỏi nào, xin liên hệ với chúng tôi tại: smartstore.sales.2022@gmail.com</li>
+                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Trân trọng, Ban quản trị cửa hàng Smart Store</li>
                             ';
                         $maildathang = $_SESSION['email'];
                         $mail = new Mailer();
@@ -367,7 +367,7 @@ if (!isset($_SESSION['dangnhap_home'])) {
                         echo '<p>Giao dịch thanh toán bằng MoMo thành công<a href="/"> TIẾP TỤC MUA HÀNG</a>';
                         $tieude = "Thanh toán bằng ví MoMo thành công";
                         $noidung = '';
-                        $noidung .= "<p>Cảm ơn Anh/chị " . $_SESSION['dangnhap_home'] . " đã đặt hàng tại ADHK Mobile</p>";
+                        $noidung .= "<p>Cảm ơn Anh/chị " . $_SESSION['dangnhap_home'] . " đã đặt hàng tại Smart Store</p>";
                         $noidung .= '<p>
                         <b>Khách Hàng: </b>' . $name . '<br/>
                         <b>Email: </b>' . $mail . '<br/>
@@ -466,8 +466,8 @@ if (!isset($_SESSION['dangnhap_home'])) {
                             <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Đơn hàng của quý khách sẽ được vận chuyển đến tay Quý khách trong sau thời gian 2 đến 3 ngày làm việc tính từ thời điểm này.</li>
                             <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nhân viên giao hàng sẽ liên hệ với số điện thoại trước khi giao hàng 24 tiếng</li>
                             <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Cảm ơn Quý khách đã mua sản phẩm tại Công ty chúng Tôi!</li>
-                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nếu Anh/chị có bất kỳ câu hỏi nào, xin liên hệ với chúng tôi tại: adhkmobile@gmail.com</li>
-                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Trân trọng, Ban quản trị cửa hàng ADHK Mobile</li>
+                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nếu Anh/chị có bất kỳ câu hỏi nào, xin liên hệ với chúng tôi tại: smartstore.sales.2022@gmail.com</li>
+                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Trân trọng, Ban quản trị cửa hàng Smart Store</li>
                             ';
                         $maildathang = $_SESSION['email'];
                         $mail = new Mailer();
@@ -477,7 +477,7 @@ if (!isset($_SESSION['dangnhap_home'])) {
                         echo '<p>Giao dịch thanh toán bằng PAYPAL thành công<a href="/"> TIẾP TỤC MUA HÀNG</a>';
                         $tieude = "Thanh toán bằng PAYPAL thành công";
                         $noidung = '';
-                        $noidung .= "<p>Cảm ơn Anh/chị " . $_SESSION['dangnhap_home'] . " đã đặt hàng tại ADHK Mobile</p>";
+                        $noidung .= "<p>Cảm ơn Anh/chị " . $_SESSION['dangnhap_home'] . " đã đặt hàng tại Smart Store</p>";
                         $noidung .= '<p>
                         <b>Khách Hàng: </b>' . $name . '<br/>
                         <b>Email: </b>' . $mail . '<br/>
@@ -576,8 +576,8 @@ if (!isset($_SESSION['dangnhap_home'])) {
                             <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Đơn hàng của quý khách sẽ được vận chuyển đến tay Quý khách trong sau thời gian 2 đến 3 ngày làm việc tính từ thời điểm này.</li>
                             <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nhân viên giao hàng sẽ liên hệ với số điện thoại trước khi giao hàng 24 tiếng</li>
                             <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Cảm ơn Quý khách đã mua sản phẩm tại Công ty chúng Tôi!</li>
-                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nếu Anh/chị có bất kỳ câu hỏi nào, xin liên hệ với chúng tôi tại: adhkmobile@gmail.com</li>
-                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Trân trọng, Ban quản trị cửa hàng ADHK Mobile</li>
+                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nếu Anh/chị có bất kỳ câu hỏi nào, xin liên hệ với chúng tôi tại: smartstore.sales.2022@gmail.com</li>
+                            <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Trân trọng, Ban quản trị cửa hàng Smart Store</li>
                             ';
                         $maildathang = $_SESSION['email'];
                         $mail = new Mailer();

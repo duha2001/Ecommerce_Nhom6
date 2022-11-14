@@ -1,18 +1,18 @@
 <section class="bread-crumb">
 	<div class="container">
-		<ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">					
+		<ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<li class="home" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 				<a itemprop="item" href="/" title="Trang chủ">
 					<span itemprop="name">Trang chủ</span>
 					<meta itemprop="position" content="1" />
 				</a>
 			</li>
-			
+
 			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 				<strong itemprop="name">Báo giá miễn phí</strong>
 				<meta itemprop="position" content="2" />
 			</li>
-			
+
 		</ul>
 	</div>
 </section>
@@ -24,15 +24,15 @@
 				<h3>Gửi yêu cầu báo giá, đặt hàng</h3>
 				<p class="p-bottom">Khi có nhu cầu đơn hàng riêng, quý khách hàng có thể đặt mua với phòng kinh doanh của http://cod.test. Với kinh nghiệm hơn 10 năm hoạt động, http://cod.test sẽ nỗ lực hết mình để hài lòng quý khách hàng.</p>
 				<div class="contact-box">
-					
-					<p><strong>Địa chỉ: </strong>73 Nguyễn Huệ, Phường 2, TP, Vĩnh Long</p>
-					
-					
-					<p><strong>Điện thoại: </strong><a href="tel:0270 3822 141" title="0270 3822 141">0270 3822 141</a></p>
-					
-					
-					<p><strong>Email: </strong><a href="mailto:huykhangvo02092000@gmail.com" title="huykhangvo02092000@gmail.com">huykhangvo02092000@gmail.com</a></p>
-					
+
+					<p><strong>Địa chỉ: </strong>280 An Dương Vương, Quận 7, TPHCM</p>
+
+
+					<p><strong>Điện thoại: </strong><a href="tel:0270 3822 141" title="0270 3822 141">0366 6610 949</a></p>
+
+
+					<p><strong>Email: </strong><a href="mailto:huynhanhdu2000@gmail.com" title="huynhanhdu2000@gmail.com">huynhanhdu2000@gmail.com</a></p>
+
 				</div>
 			</div>
 <?php
@@ -50,7 +50,7 @@ if (isset($_POST['send'])) {
 			$uploadedFiles = $result['uploaded_files'];
 		}
 	}
-	
+
 	if (!isset($error)) {
 		include('./mail/cauhinh.php');
 		include('../admin/carbon/vendor/autoload.php');
@@ -146,7 +146,7 @@ if (isset($_POST['send'])) {
                     <div class="col-sm-12 col-xs-12">
 						<fieldset class="form-group">
 							<label>File đính kèm<span class="required">*</span></label>
-                            <input class="form-control form-control-lg" multiple type="file" name="file_upload[]">(Chỉ chấp nhận word hoặc excel)</td>	
+                            <input class="form-control form-control-lg" multiple type="file" name="file_upload[]">(Chỉ chấp nhận word hoặc excel)</td>
                         </fieldset>
 					</div>
 						<fieldset class="form-group">

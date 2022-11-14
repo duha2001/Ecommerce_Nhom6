@@ -355,7 +355,7 @@
             </div>
             <div class="col-xl-3 col-lg-12 evo-width-news evo_banner_option_1">
 
-                <a href="#" title="Evo Mobile">
+                <a href="#" title="Smart Store">
                     <picture>
                         <source media="(min-width: 1200px)"
                             srcset="//bizweb.dktcdn.net/thumb/large/100/415/483/themes/804267/assets/slider_6.jpg?1649491018773">
@@ -368,7 +368,7 @@
                         <img class="lazy"
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
                             data-src="//bizweb.dktcdn.net/100/415/483/themes/804267/assets/slider_6.jpg?1649491018773"
-                            alt="Evo Mobile" />
+                            alt="Smart Store" />
                     </picture>
                 </a>
 

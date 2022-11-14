@@ -40,10 +40,10 @@ if ($cart_payment == 'tienmat') {
     $phone = $_POST['phone'];
     $address = $_POST['address'];
     $note = $_POST['note'];
-
-    $tieude = "Đặt hàng website ADHK Mobile thành công!";
+ 
+    $tieude = "#$code_order Đơn đặt hàng website Smart Store thành công!";
     $noidung .= "<p>Xin Chào $name</p>";
-    $noidung .= "<p>Cảm ơn Anh/chị đã đặt hàng tại ADHK Mobile</p>";
+    $noidung .= "<p>Cảm ơn Anh/chị đã đặt hàng tại Smart Store</p>";
     $noidung .= 'Đơn hàng của Anh/chị đã được tiếp nhận, chúng tôi sẽ nhanh chóng liên hệ với Anh/chị.';
     $noidung .= "<h4>THÔNG TIN KHÁCH HÀNG:</h4>";
     $noidung .= '<p>
@@ -142,15 +142,15 @@ ship</td>
         <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Đơn hàng của quý khách sẽ được vận chuyển đến tay Quý khách trong sau thời gian 2 đến 3 ngày làm việc tính từ thời điểm này.</li>
         <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nhân viên giao hàng sẽ liên hệ với số điện thoại trước khi giao hàng 24 tiếng</li>
         <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Cảm ơn Quý khách đã mua sản phẩm tại Công ty chúng Tôi!</li>
-        <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nếu Anh/chị có bất kỳ câu hỏi nào, xin liên hệ với chúng tôi tại: adhkmobile@gmail.com</li>
-        <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Trân trọng, Ban quản trị cửa hàng ADHK Mobile</li>
+        <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nếu Anh/chị có bất kỳ câu hỏi nào, xin liên hệ với chúng tôi tại: admin@smartstoregorilass.com</li>
+        <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Trân trọng, Ban quản trị cửa hàng Smart Store</li>
         ';
     $maildathang = $_SESSION['email'];
     $mail = new Mailer();
     $mail->dathangmail($tieude, $noidung, $maildathang);
 
     unset($_SESSION['cart']);
-    header('Location:../../index.php?quanly=hoantat');
+    header('Location: http://smartstoregorilass.com/index.php?quanly=hoantat');
 } elseif ($cart_payment == 'chuyenkhoan') {
     //insert vào đơn hàng
     $insert_cart = "INSERT INTO tbl_cart(id_khachhang,code_cart,cart_status,cart_date,cart_payment,cart_shipping) VALUE('" . $id_khachhang . "','" . $code_order . "',1,'" . $now . "','" . $cart_payment . "','" . $id_shipping . "')";
@@ -169,9 +169,9 @@ ship</td>
     $address = $_POST['address'];
     $note = $_POST['note'];
 
-    $tieude = "Đặt hàng website ADHK Mobile thành công!";
+    $tieude = "#$code_order Đơn đặt hàng tại website Smart Store thành công!";
     $noidung .= "<p>Xin Chào $name</p>";
-    $noidung .= "<p>Cảm ơn Anh/chị đã đặt hàng tại ADHK Mobile</p>";
+    $noidung .= "<p>Cảm ơn Anh/chị đã đặt hàng tại Smart Store</p>";
     $noidung .= "<p><b>TÀI KHOẢN NHẬN THANH TOÁN</b></br></p>
     <strong>Tên giao dịch: Võ Huy Khang</strong><br>
     <strong>Số Tài Khoản: 101869094651</strong><br>
@@ -276,15 +276,15 @@ ship</td>
         <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Đơn hàng của quý khách sẽ được vận chuyển đến tay Quý khách trong sau thời gian 2 đến 3 ngày làm việc tính từ thời điểm này.</li>
         <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nhân viên giao hàng sẽ liên hệ với số điện thoại trước khi giao hàng 24 tiếng</li>
         <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Cảm ơn Quý khách đã mua sản phẩm tại Công ty chúng Tôi!</li>
-        <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nếu Anh/chị có bất kỳ câu hỏi nào, xin liên hệ với chúng tôi tại: adhkmobile@gmail.com</li>
-        <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Trân trọng, Ban quản trị cửa hàng ADHK Mobile</li>
+        <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Nếu Anh/chị có bất kỳ câu hỏi nào, xin liên hệ với chúng tôi tại: admin@smartstoregorilass.com</li>
+        <li style="background: transparent; border: 0px; box-sizing: initial; list-style: disc; margin: 5px 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Trân trọng, Ban quản trị cửa hàng Smart Store</li>
         ';
     $maildathang = $_SESSION['email'];
     $mail = new Mailer();
     $mail->dathangmail($tieude, $noidung, $maildathang);
 
     unset($_SESSION['cart']);
-    header('Location:../../index.php?quanly=hoantat');
+    header('http://smartstoregorilass.com/index.php?quanly=hoantat');
 } elseif ($cart_payment == 'vnpay') {
     //thanh toan bang vnpay
     $vnp_TxnRef = $code_order; //Mã đơn hàng. Trong thực tế Merchant cần insert đơn hàng vào DB và gửi mã này sang VNPAY

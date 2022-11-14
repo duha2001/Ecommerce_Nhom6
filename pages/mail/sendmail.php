@@ -25,7 +25,7 @@ class Mailer
 			$mail->Username = SMTP_UNAME;                 // SMTP username
 			$mail->Password = SMTP_PWORD; // Phiên bản mới tạo app trong gmail sử dụng mật khẩu application
 			//$mail->Password = 'EVEmgFUD';                           // Phiên bản cũ xử dụng pk của gmail hiện tại
-			$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+			$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 			$mail->Port = SMTP_PORT;                                    // TCP port to connect to
 			//$mail->Port = 465; //Cổng SMTP
 			// Bước 1: Đăng nhập vào tài khoản Gmail trên web gmail.com
@@ -51,11 +51,11 @@ class Mailer
 			$mail->Subject = $tieude;
 			$mail->Body    = $noidung;
 			// $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
+            $mail->send();
 			//Gửi email thành công load lại trang tránh insert trùng dữ liệu
-			if ($mail->Send()) {
-				echo '<script>setTimeout("window.location=\'index.php?quanly=hoantat\'",1000);</script>';
-			}
+// 			if ($mail->Send()) {
+// 				echo '<script>setTimeout("window.location=\'index.php?quanly=hoantat\'",200);</script>';
+// 			}
 		} catch (Exception $e) {
 			//Gửi không được, đưa ra thông báo lỗi
 			echo 'Không xong rồi đại vương ơi ', $mail->ErrorInfo;

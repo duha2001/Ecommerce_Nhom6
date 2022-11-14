@@ -20,7 +20,7 @@ if (isset($_GET['huy'])) {
     if ($kiemtra['cart_payment'] == 'tienmat') {
     $tieude = "Đơn hàng $code của Quý Khách: $tenkhachhang được huỷ thành công";
     $noidung = '';
-    $noidung .= "<p>Đơn hàng $code đã nhận được yêu cầu huỷ tại website ADHK Mobile</p>";
+    $noidung .= "<p>Đơn hàng $code đã nhận được yêu cầu huỷ tại website Smart Mobile</p>";
     $noidung .= '<table style="font-family: arial, sans-serif;
                         border-collapse: collapse;
                         width: 100%;">
@@ -97,7 +97,7 @@ ship</td>
         </tbody>
     </table>';
     $noidung .= "<br/>";
-    $noidung.= "<p>Trân trọng cảm ơn Quý khách đã sử dụng dịch vụ mua hàng trực tuyến tại shop ADHK Mobile!</p>";
+    $noidung.= "<p>Trân trọng cảm ơn Quý khách đã sử dụng dịch vụ mua hàng trực tuyến tại shop Smart Store!</p>";
     $maildathang = $_SESSION['email'];
     $mail = new Mailer();
     $mail->dathangmail($tieude, $noidung, $maildathang);
@@ -105,7 +105,7 @@ ship</td>
         if($kiemtra['cart_payment'] == 'chuyenkhoan'){
             $tieude = "Đơn hàng $code của Quý Khách: $tenkhachhang được huỷ thành công";
             $noidung = '';
-            $noidung .= "<p>Đơn hàng $code đã nhận được yêu cầu huỷ tại website ADHK Mobile</p><br/>";
+            $noidung .= "<p>Đơn hàng $code đã nhận được yêu cầu huỷ tại website Smart Store</p><br/>";
             $noidung .= "Nếu quý khách đã chuyển khoản thanh toán đơn hàng thì quá trình hoàn trả số tiền của quý khách sẽ được xử lý sau 24h làm việc";
             $noidung .= '<table style="font-family: arial, sans-serif;
                                 border-collapse: collapse;
@@ -183,14 +183,14 @@ ship</td>
                 </tbody>
             </table>';
             $noidung .= "<br/>";
-            $noidung.= "<p>Trân trọng cảm ơn Quý khách đã sử dụng dịch vụ mua hàng trực tuyến tại shop ADHK Mobile!</p>";
+            $noidung.= "<p>Trân trọng cảm ơn Quý khách đã sử dụng dịch vụ mua hàng trực tuyến tại shop Smart Store!</p>";
             $maildathang = $_SESSION['email'];
             $mail = new Mailer();
             $mail->dathangmail($tieude, $noidung, $maildathang);
         }else{
             $tieude = "Đơn hàng $code của Quý Khách: $tenkhachhang được huỷ thành công";
             $noidung = '';
-            $noidung .= "<p>Đơn hàng $code đã nhận được yêu cầu huỷ tại website ADHK Mobile</p><br/>";
+            $noidung .= "<p>Đơn hàng $code đã nhận được yêu cầu huỷ tại website Smart Store</p><br/>";
             $noidung .= "Số tiền quý khách đã thanh toán sẽ được hoàn trả qua tài khoản ngân hàng của quý khách khi thanh toán sao 24h làm việc";
             $noidung .= '<table style="font-family: arial, sans-serif;
                                 border-collapse: collapse;
@@ -268,7 +268,7 @@ ship</td>
                 </tbody>
             </table>';
             $noidung .= "<br/>";
-            $noidung.= "<p>Trân trọng cảm ơn Quý khách đã sử dụng dịch vụ mua hàng trực tuyến tại shop ADHK Mobile!";
+            $noidung.= "<p>Trân trọng cảm ơn Quý khách đã sử dụng dịch vụ mua hàng trực tuyến tại shop Smart Store!";
             $maildathang = $_SESSION['email'];
             $mail = new Mailer();
             $mail->dathangmail($tieude, $noidung, $maildathang);

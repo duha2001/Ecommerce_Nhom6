@@ -46,8 +46,8 @@ if (isset($_SESSION['username']) && isset($_SESSION['level'])) {
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="page-header"><img style=" width: 120px;
-    height: 50px;" src="../../dist/images/pc.png">Hợp Đồng Mua Bán Công ty trách nhiệm hữu hạn 2 thành
-                    viên ADHK Mobile
+    height: 50px;" src="../../dist/images/smart-store-rmbg.png">Hợp Đồng Mua Bán Công ty trách nhiệm hữu hạn 5 thành
+                    viên Smart Store
                     <small class="pull-right">Ngày đặt: <?php $date_cre = date_create(isset($kiemtra['cart_date']));
                                                             echo date_format($date_cre, 'd/m/Y'); ?></small>
                 </h2>
@@ -194,14 +194,11 @@ if (isset($_SESSION['username']) && isset($_SESSION['level'])) {
                 <button onclick="window.print();" class="btn btn-default">
                     <i class="fa fa-print"></i> Print Me
                 </button>
-                <a href="index.php?p=index&a=statistic" target="_blank" class="btn btn-success pull-right"><i
-                        class="fa fa-credit-card"></i> Thống
+                <a href="index.php?p=index&a=statistic" target="_blank" class="btn btn-success pull-right" style="margin-right: 5px"><i
+                        class="fa fa-credit-card" ></i> Thống
                     kê
                     doanh thu
                 </a>
-                <button onclick="window.print(); type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
-                    <i class="fa fa-download"></i> Xuất PDF
-                </button>
             </div>
         </div>
     </section>
